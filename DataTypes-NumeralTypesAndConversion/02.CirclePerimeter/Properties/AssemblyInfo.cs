@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CirclePerimeter")]
+[assembly: AssemblyTitle("02.CirclePerimeter")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CirclePerimeter")]
+[assembly: AssemblyProduct("02.CirclePerimeter")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("a70b8ec0-918a-4aad-9ba3-7f07bb8e869a")]
+[assembly: Guid("a84314c6-ffc4-4106-8636-15309ed183de")]
 
 // Version information for an assembly consists of the following four values:
 //

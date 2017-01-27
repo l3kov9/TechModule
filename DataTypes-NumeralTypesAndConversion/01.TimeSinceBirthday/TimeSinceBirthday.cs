@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _01.TimeSinceBirthday
+﻿namespace _01.TimeSinceBirthday
 {
-    class Program
+    using System;
+    public class TimeSinceBirthday
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             byte years = byte.Parse(Console.ReadLine());
             int days = years * 365;

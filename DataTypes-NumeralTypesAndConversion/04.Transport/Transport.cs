@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _04.Transport
+﻿namespace _04.Transport
 {
-    class Program
+    using System;
+    public class Transport
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             int persons = int.Parse(Console.ReadLine());
 

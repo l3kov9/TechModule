@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _03.ExactProductOfRealNumbers
+﻿namespace _03.ExactProductOfRealNumbers
 {
-    class Program
+    using System;
+    public class ExactProductOfRealNumbers
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             int n = int.Parse(Console.ReadLine());
             decimal sum=1;
