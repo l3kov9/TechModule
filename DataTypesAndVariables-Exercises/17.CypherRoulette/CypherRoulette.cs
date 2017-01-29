@@ -1,9 +1,9 @@
 ﻿namespace _17.CypherRoulette
 {
     using System;
-    class CypherRoulette
+    public class CypherRoulette
     {
-        static void Main()
+        public static void Main()
         {
             int n = int.Parse(Console.ReadLine());
             string spin = "spin";

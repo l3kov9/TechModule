@@ -1,9 +1,9 @@
 ﻿namespace _16.TrickyStrings
 {
     using System;
-    class TrickyString
+    public class TrickyString
     {
-        static void Main()
+        public static void Main()
         {
             string delimeter = Console.ReadLine();
             int n = int.Parse(Console.ReadLine());

@@ -1,9 +1,9 @@
 ﻿namespace _15.Calculator
 {
     using System;
-    class Calculator
+    public class Calculator
     {
-        static void Main()
+        public static void Main()
         {
             int a = int.Parse(Console.ReadLine());
             char operation = Convert.ToChar(Console.ReadLine());
