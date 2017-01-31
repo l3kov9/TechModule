@@ -14,6 +14,10 @@
                 {
                     Console.Write("too small");
                 }
+                else if(number<100 && number > -100)
+                {
+
+                }
                 else if (number > 999)
                 {
                     Console.Write("too large");
