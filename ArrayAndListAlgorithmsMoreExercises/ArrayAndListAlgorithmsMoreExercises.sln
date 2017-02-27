@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.RabbitHole", "01.RabbitHole\01.RabbitHole.csproj", "{F72F72DA-82D7-4334-858A-3547F099BA6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.JapaneseRoulette", "02.JapaneseRoulette\02.JapaneseRoulette.csproj", "{4C93AB13-0D22-4846-AF97-0BE46C790CB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.IncreasingCrisis", "03.IncreasingCrisis\03.IncreasingCrisis.csproj", "{B80B1EBA-3376-4FD2-8B6F-6DD5714837EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F72F72DA-82D7-4334-858A-3547F099BA6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F72F72DA-82D7-4334-858A-3547F099BA6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F72F72DA-82D7-4334-858A-3547F099BA6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F72F72DA-82D7-4334-858A-3547F099BA6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C93AB13-0D22-4846-AF97-0BE46C790CB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C93AB13-0D22-4846-AF97-0BE46C790CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C93AB13-0D22-4846-AF97-0BE46C790CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C93AB13-0D22-4846-AF97-0BE46C790CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B80B1EBA-3376-4FD2-8B6F-6DD5714837EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B80B1EBA-3376-4FD2-8B6F-6DD5714837EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B80B1EBA-3376-4FD2-8B6F-6DD5714837EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B80B1EBA-3376-4FD2-8B6F-6DD5714837EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
