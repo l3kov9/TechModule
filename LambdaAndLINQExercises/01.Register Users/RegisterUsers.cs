@@ -21,7 +21,7 @@
                 input = Console.ReadLine();
             }
 
-            var result = register.OrderByDescending(x => x.Value).Skip(register.Count-5);
+            var result = register.Reverse().OrderBy(x => x.Value).Take(5).OrderByDescending(x => x.Value);
             foreach (var user in result)
             {
                 Console.WriteLine(user.Key);
@@ -30,7 +30,7 @@
 
         private static void AddToDictionary(Dictionary<string, DateTime> register, string username, DateTime date)
         {
-                register[username] = date;
+            register[username] = date;
         }
     }
 }
