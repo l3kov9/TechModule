@@ -13,7 +13,7 @@
 
             while (!input.Equals("end"))
             {
-                var separators = new[] { ' ', ',', '-', '.', '!', '?', ':', ')', '(' };
+                var separators = new[] { ',', ' ', '=', '-', '>', ':', '~', '}', '|', '{', '`', '^', ']', '\\', '[', '?', '<', ';', '/', '.', '+', '*', ')', '(', '&', '%', '$', '#', '\"', '!' };
 
                 var list = input.ToUpper().Split(separators, StringSplitOptions.RemoveEmptyEntries).ToList();
                 var output = new List<string>();
