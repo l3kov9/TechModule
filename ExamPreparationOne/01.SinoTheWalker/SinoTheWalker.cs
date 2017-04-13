@@ -11,8 +11,8 @@
             var neededSteps = decimal.Parse(Console.ReadLine());
             var timePerStep = decimal.Parse(Console.ReadLine());
 
-            int totalMinutes = (int)(timePerStep * neededSteps %(60*60*24));
-            leavingTime = leavingTime.AddSeconds(totalMinutes);
+            int totalSeconds = (int)(timePerStep * neededSteps %(60*60*24));
+            leavingTime = leavingTime.AddSeconds(totalSeconds);
 
             Console.WriteLine($"Time Arrival: {leavingTime:HH:mm:ss}");
         }
