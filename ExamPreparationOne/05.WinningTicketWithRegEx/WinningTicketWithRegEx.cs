@@ -20,7 +20,7 @@
 
                 var firstPartMatch = regex.Match(firstPart);
                 var secondPartMatch = regex.Match(secondPart);
-
+                
                 if (ticket.Length != 20)
                 {
                     Console.WriteLine("invalid ticket");
